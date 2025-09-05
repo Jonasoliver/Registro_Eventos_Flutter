@@ -1,41 +1,16 @@
+# exercicio_1
 
-# Registro de Eventos Flutter
+A new Flutter project.
 
-Este aplicativo Flutter permite registrar eventos com data, hora e descrição, salvando cada evento em uma lista persistida em arquivo JSON.
+## Getting Started
 
-## Funcionalidades
+This project is a starting point for a Flutter application.
 
-- Formulário para inserir data, hora e descrição do evento
-- Lista de eventos exibida em cards estilizados
-- Persistência dos eventos em arquivo JSON local
-- Interface moderna e responsiva
+A few resources to get you started if this is your first Flutter project:
 
-## Como rodar o projeto
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-1. **Pré-requisitos:**
-	- Flutter instalado ([instalação oficial](https://docs.flutter.dev/get-started/install))
-	- Dart SDK
-
-2. **Instale as dependências:**
-	Abra o terminal na pasta do projeto e execute:
-	```sh
-	flutter pub get
-	```
-
-3. **Execute o app:**
-	```sh
-	flutter run
-	```
-
-## Sobre a persistência dos eventos
-
-Os eventos são salvos automaticamente em um arquivo `events.json` na pasta de documentos do sistema, usando o pacote `path_provider`. Esse arquivo não aparece na pasta do projeto, mas é gerenciado pelo próprio app.
-
-## Estrutura do projeto
-
-- `lib/main.dart`: Código principal do app
-- `pubspec.yaml`: Dependências do projeto
-
-## Autor
-
-Jonas
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
